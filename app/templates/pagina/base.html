@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    {% block head %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/vendor/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+    <link href="/estilo-pagina.css" type="text/css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/vendor/js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/vendor/js/bootstrap.min.js"></script> {% endblock %}
+    <title>EEST-1</title>
+</head>
+
+<body>
+    <div id="main" class="container">
+        {% include "pagina/header.html" %}
+        {% block content %} {% endblock %}
+    </div>
+
+    {% include "pagina/footer.html" %}
+</body>
+
+</html>

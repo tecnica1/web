@@ -1,0 +1,108 @@
+<footer>
+    <div class="hidden-sm hidden-xs col-md-3 text-center" style="padding-top:15px;">
+        <img src="img/blancologo.png" width="90" height="90" alt="">
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3">
+        <!-- En resoluciones medianas/grandes. Lista de los elementos -->
+        <div class="hidden-xs">
+            <div style="width:95%; margin-left:5%;">
+                <strong>DATOS DE CONTACTO:</strong><br><br>
+                <strong>Dirección:</strong> Calle 104 y 124. Santa teresita <br>
+                <strong>Teléfono:</strong> (02246) 420535 <strong>Fax:</strong> 423529 <br>
+                <strong>E-mail:</strong> eest1lacosta@gmail.com
+            </div>
+        </div>
+
+        <!-- En resoluciones chicas. Botón desplegable -->
+        <span class="visible-xs">
+                                <ul class="nav navbar-nav listaFooter">
+                                 <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle botonFooter" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> DATOS DE CONTACTO:<span class="caret"></span></a>
+        <ul class="dropdown-menu" style="margin-left:25px;">
+            <li><strong>Dirección:</strong> Calle 104 y 124. Santa teresita</li>
+            <li><strong>Teléfono:</strong> (02246) 420535 <strong>Fax:</strong> 423529</li>
+            <li><strong>E-mail:</strong> eest1lacosta@gmail.com</li>
+        </ul>
+        </li>
+        </ul>
+        </span>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12">
+        <!-- En resoluciones medianas/grandes. Lista de los elementos -->
+        <div class="hidden-xs">
+            <div style="width:65%; margin-left:35%;">
+                <strong>Links:</strong><br><br>
+                <a href="http://www.abc.gov.ar/" target="_blank">ABC</a><br>
+                <a href="http://consejoescolarpartidodelacosta.jimdo.com/" target="_blank">Consejo Escolar</a>
+            </div>
+        </div>
+
+        <!-- En resoluciones chicas. Botón desplegable -->
+        <span class="visible-xs">
+                                <ul class="nav navbar-nav listaFooter">
+                                 <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle botonFooter" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Links:<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="http://www.abc.gov.ar/" target="_blank">ABC</a></li>
+            <li><a href="http://consejoescolarpartidodelacosta.jimdo.com/" target="_blank">Consejo Escolar</a></li>
+        </ul>
+        </li>
+        </ul>
+        </span>
+    </div>
+
+    <div class="col-md-3 col-sm-4 col-xs-12">
+        <!-- En resoluciones medianas/grandes. Lista de los elementos -->
+        <div class="hidden-xs">
+            <div style="width:75%; margin-left:25%;">
+                <strong>Uso interno:</strong><br><br>
+                <a href="" target="_blank">Centro de estudiantes</a><br>
+                <a href="" target="_blank">Radio</a><br>
+                <a href="http://190.14.32.174:8080" target="_blank">SBuffet</a><br>
+                <a href="http://www.ahoraestiempodesumar.com.ar" target="_blank">Ahora es tiempo de sumar</a>
+            </div>
+        </div>
+
+        <!-- En resoluciones chicas. Botón desplegable -->
+        <span class="visible-xs">
+                                <ul class="nav navbar-nav listaFooter">
+                                 <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle botonFooter" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Uso interno:<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="" target="_blank">Centro de estudiantes</a></li>
+            <li><a href="" target="_blank">Radio</a></li>
+            <li><a href="http://190.14.32.174:8080" target="_blank">SBuffet</a></li>
+            <li><a href="http://www.ahoraestiempodesumar.com.ar" target="_blank">Ahora es tiempo de sumar</a></li>
+        </ul>
+        </li>
+        </ul>
+        </span>
+    </div>
+</footer>
+
+</div>
+
+<!--
+    ========================================
+    FOOTER
+    ========================================
+    -->
+
+
+<!--
+    ========================================
+    FIN FOOTER
+    ========================================
+    -->
+
+<script src="js/bootstrap.min.js"></script>
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+<script src="js/scrollTop.js"></script>
+<script>
+        $('.botonFooter').on("click", function(){
+            setTimeout(function(){
+                $("html, body").stop().animate({scrollTop:document.body.scrollHeight}, '500', 'swing', function() { });
+            }, 20); 
+        });
+    </script>
