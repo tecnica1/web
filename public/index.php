@@ -5,7 +5,7 @@ use \Psr\Http\Message\ResponseInterface as Response;
 // Cargar librerias automaticamente
 require '../vendor/autoload.php';
 
-// Mostrar errores.
+// Mostrar errores
 $config['displayErrorDetails'] = true;
 // Donde va a estar el codigo de nuestra aplicacion
 $config['base_url'] = "app/";
