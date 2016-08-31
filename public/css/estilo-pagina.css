@@ -1,0 +1,345 @@
+html, body {
+    height: 100%;
+}
+
+#main {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto -40px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+	background-color: #06B347F;
+}
+
+.navbar-nav {
+            margin-left: 0px;
+            text-align:left !important;
+    }
+
+.navbar-brand > p {
+	margin-left: 65px;
+    font-weight: bolder;
+    font-size: 18pt;
+}
+@media (min-width:768px){
+        .navbar-brand > p {
+            font-size: 13.5pt;
+        }
+        .navbar-nav {
+            margin-left: 130px;
+        }
+    }
+    @media (max-width:991px){
+        .navbar-brand > p {
+            position:relative;
+            margin:0;
+        }
+        .navbar-brand > .visible-xs:not(#logo-small) {
+            margin-left:calc(42vw - 120px) !important;
+        }
+    }
+    @media (max-width: 768px) {
+        .navbar-brand > p {
+            text-align: right;
+            float: right;
+            margin-left: 50px;
+        }
+    }
+    @media (min-width:992px){
+        .navbar-brand > p {
+            font-size: 16pt;
+        }
+        .navbar-nav {
+            margin-left: 220px;
+        }
+    }
+    @media (min-width:1200px){
+        .navbar-brand > p {
+            font-size: 18pt;
+        }
+        .navbar-nav {
+            margin-left: 260px;
+        }
+    }
+
+#logo, #logo-small {
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+#logo img {
+    width: 90px;
+    height: 90px;
+}
+
+#logo-small img {
+    width: 32px;
+    height: 32px;
+}
+
+#contenido {
+    width: 100%;
+    display: block;
+    min-height: 40vh;
+    background-color: white;
+}
+
+#principal {
+    width: 80%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sidebar {
+    margin-top: -20px;
+    height: 50%;
+    max-height: 50%;
+}
+
+#proyectos > h2 {
+    margin-top: 0px;
+}
+
+.carousel {
+    margin-top: 10px;
+}
+
+.carousel .item {
+
+}
+
+.carousel-inner > .item > .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#orientaciones img {
+    padding: 2px 2px;
+    margin: 0px;
+}
+
+.orientacion {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#login {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #006699;
+    color: white;
+}
+
+#login h2 {
+    margin-top: 0px;
+}
+
+.control-label {
+	padding-top: 0px;
+        padding-bottom: 4px;
+}
+
+.form-control {
+    width: 70%;
+    height: 10%;
+    max-height: 10%;
+    margin-left: 40px;
+    padding: 5px 5px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+#logos {
+    margin-top: 60px;
+    padding-bottom: 0px;
+}
+
+.logoabajo {
+    max-width: 16%;
+}
+
+.logoabajo > a > img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    max-height: 210px;
+}
+
+.logoabajo > a > img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);    
+}
+
+#texto {
+
+}
+
+.enlace {
+    padding: 0px;
+    margin: 0px;
+}
+
+#btn-entrar {
+    color: white;
+    background-color: #006699;
+    border: 2px solid white;
+}
+
+#calendario {
+    border: 1px solid black;
+}
+
+th {
+    background-color: orange;
+}
+
+td {
+    background-color: #ffbc41;
+}
+
+#inscripcion {
+    font-size: 18px;
+}
+
+#whitespace {
+    height: 30px;
+    min-height: 30px;
+}
+
+footer {
+            position: relative;
+            /* Altura total del footer en px con valor negativo */
+            bottom: -14px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+            min-height: 8vh;
+            padding: 5px 0px;
+            clear: both;
+            background-color: #000000;
+            color: white;
+            display: block;
+            width: 100%;
+        }
+
+footer:after, footer:before{content:" ";display:table;clear: both;}
+
+footer a:not(.botonFooter){
+    text-decoration: none;
+    color:white !important;
+    background: none !important;
+}
+
+footer a:not(.botonFooter):hover{
+    font-weight: bold;
+}
+
+.go-mid {
+    margin: 0 auto;
+}
+
+
+.botonFooter{
+    background:none !important;
+    color:white !important;
+    font-weight: bold;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(57, 53, 42);
+    background: rgba(57, 53, 42, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(57, 53, 42, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+.alert-warning{
+    border-radius: 5px;
+}
+.imgNoticia{
+    max-width:100%;
+    max-height:250px;
+}
+.resumen{
+    border-bottom:2px solid black;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.vinculoNoticia, .vinculoNoticia:hover, .vinculoNoticia:active, .vinculoNoticia:focus{
+    color:black;
+    text-decoration: none;
+}
+.vinculoNoticia:hover img{
+    -webkit-filter: brightness(125%);
+filter: brightness(125%);
+}
+.vinculoNoticia:hover > div{
+    color: #717171;
+    border: solid 1px rgb(0, 0, 0);
+}
+@media (min-width:992px){
+    .container-fluid-md{
+        padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .principal{
+        width: 80%;
+        background-color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .container-fluid-md:before, .container-fluid-md:after{
+        display: table;
+        content: " ";
+    }
+    .container-fluid-md:after{
+        clear: both;
+    }
+}
+@media (max-width:991px){
+    .container-fluid-md{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+}
