@@ -24,4 +24,9 @@ $app->get('/noticias', function ($request, $response) use($app) {
     return $this->view->render($response, 'pagina/noticias.php');
 });
 
+
+
+$app->get('/contacto', function ($request, $response) use($app) {
+    return $this->view->render($response, 'pagina/contacto.php');
+});
 ?>
