@@ -30,7 +30,7 @@ $app->get('/contacto', function ($request, $response) use($app) {
     return $this->view->render($response, 'pagina/contacto.php');
 });
 
-$app->get('/auroridades', function ($request, $response) use($app) {
+$app->get('/autoridades', function ($request, $response) use($app) {
     return $this->view->render($response, 'pagina/institucional/autoridades.html');
 });
 ?>
