@@ -20,4 +20,8 @@ $app->get('/turismo', function ($request, $response) use($app) {
     return $this->view->render($response, 'pagina/orientaciones/turismo.html');
 });
 
+$app->get('/noticias', function ($request, $response) use($app) {
+    return $this->view->render($response, 'pagina/noticias.php');
+});
+
 ?>
