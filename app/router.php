@@ -27,6 +27,10 @@ $app->get('/noticias', function ($request, $response) use($app) {
 
 
 $app->get('/contacto', function ($request, $response) use($app) {
-    return $this->view->render($response, 'pagina/contacto.html');
+    return $this->view->render($response, 'pagina/contacto.php');
+});
+
+$app->get('/auroridades', function ($request, $response) use($app) {
+    return $this->view->render($response, 'pagina/institucional/autoridades.html');
 });
 ?>
