@@ -21,10 +21,8 @@ $app->get('/turismo', function ($request, $response) use($app) {
 });
 
 $app->get('/noticias', function ($request, $response) use($app) {
-    return $this->view->render($response, 'pagina/noticias.php');
+    return $this->view->render($response, 'pagina/noticias.html');
 });
-
-
 
 $app->get('/contacto', function ($request, $response) use($app) {
     return $this->view->render($response, 'pagina/contacto.html');
@@ -33,4 +31,5 @@ $app->get('/contacto', function ($request, $response) use($app) {
 $app->get('/autoridades', function ($request, $response) use($app) {
     return $this->view->render($response, 'pagina/institucional/autoridades.html');
 });
+
 ?>
