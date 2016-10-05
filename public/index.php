@@ -31,8 +31,8 @@ $container['view'] = function ($container) {
 };
 
 // Descomentar esto para configurar la base de datos
-/*$database_data = "mysql:dbname=basedatos;host=127.0.0.1";
-$pdo = new PDO($database_data, "root", "root");
+/*$database_data = "mysql:dbname=enlace;host=127.0.0.1";
+$pdo = new PDO($database_data, "root", "");
 $structure = new NotORM_Structure_Discovery($pdo, $cache = null, $foreign = '%s');
 $database = new NotORM($pdo, $structure);
 $database->debug = true;*/
